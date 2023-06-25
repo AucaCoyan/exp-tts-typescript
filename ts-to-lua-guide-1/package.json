@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "compile": "tstl && npm run deploy",
+    "deploy": "copy \"build\\bundle.lua\" \"%LOCALAPPDATA%\\Temp\\TabletopSimulator\\Tabletop Simulator Lua\\Global.-1.lua\""
+  },
+  "devDependencies": {
+    "tts-types": "^0.0.1",
+    "typescript": "^5.1.3",
+    "typescript-to-lua": "^1.16.2"
+  }
+}
