@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
+  "include": ["**/*.ts"],
+  "exclude": ["src/types/**", "node_modules/"],
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "moduleResolution": "nodenext",
+    "declaration": false,
+    "declarationMap": false,
+    "strict": true
+  },
+  "tstl": {
+    "luaTarget": "5.2",
+    "noImplicitSelf": true,
+    "tstlVerbose": true,
+    "luaBundle": "bundle.lua",
+    "luaBundleEntry": "src/index.ts"
+  }
+}
