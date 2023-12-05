@@ -11,11 +11,19 @@ function onLoad(saveData: any) {
   deck.setLock(true);
 }
 
-function onUpdate(params:type) {
-  
-}
-
 function shuffle(object: GObject) {
   object.shuffle();
-  object.
 }
+
+/* 
+
+cosas para hacer:
+- conseguir una forma de actualizar el juego
+    especialmente limpiar el chat y ejecutar el juego
+    
+    hay un workaround que es ir al menu scripts 
+    y luego apretar save & load
+
+- ver por que no me carga el boton, 
+- o que hago con el xml
+*/
